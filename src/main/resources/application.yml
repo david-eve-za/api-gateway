@@ -1,0 +1,9 @@
+logging:
+    level:
+        org:
+            springframework:
+                cloud:
+                    gateway: TRACE
+                    gateway.route.RouteDefinitionRouteLocator: INFO
+                security: DEBUG
+        root: INFO
